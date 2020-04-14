@@ -8,13 +8,15 @@
         "build": "tsc -w",
         "dev": "nodemon build/index.js"
     },
+    "engines": {
+        "node": "^10.16.3"
+    },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
         "cors": "^2.8.5",
         "express": "^4.17.1",
-        "heroku": "^7.39.2",
         "morgan": "^1.10.0",
         "nodemon": "^2.0.3",
         "promise-mysql": "^3.3.1"
